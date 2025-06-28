@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{%load static%}
+{%block content%}
+      <section class="section-lg bg-secondary">
+        <div class="container wide">
+          <div class="text-center">
+            <h1>Kontakte</h1>
+            <div class="subtitle-2">Fußpflegekultur & Wax – Ihre Adresse in Regensburg</div>
+          </div>
+        </div>
+      </section>
+      <!--Mailform-->
+      <section class="section section-xl">
+        <div class="container wide">
+          <div class="row row-50">
+            <div class="col-lg-4">
+              <div class="contacts-wrap">
+                <p>Phone Number</p>
+                <div class="phone-link-second"><a href="tel:+4901717062621">+49 0171 7062621</a></div>
+                <p>Location</p><span>Marienbader Str. 55, 93057 Regensburg</span>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <h3>Machen Sie einen Termin:</h3>
+
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/100operator5154/30min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+            </div>
+          </div>
+        </div>
+      </section>
+{% endblock %}
